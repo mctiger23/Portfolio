@@ -1,3 +1,8 @@
+/*
+Class = apply to a group of related items; can be used more than once
+id = apply to a specific style to a single element; can only be used ONCED
+*/
+
 body {
   background-color: #33313b;
   color: #f6f5f5;
@@ -16,5 +21,12 @@ h3 {
   color: #e3c4a8;
 }
 .info {
-  font-size: 150%;
+  font-size: 100%;
+}
+#photo_profile {
+  border-radius: 50%;
+}
+
+a:hover {
+  color: #f6f5f5;
 }
